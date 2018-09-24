@@ -17,7 +17,7 @@ WRITE: /, / 'Date & Time Information',
 WRITE: /, / 'Login Information',
        / 'Logical SAP System: ', 30 sy-sysid,
        / 'Client: ', 30 sy-mandt,
-       / 'User name: ', 30 sy-uname.
+       / 'user-name: ', 30 sy-uname.
 WRITE: /, / 'System & Program Information',
        / 'SAP WebAS Name: ', 30 sy-host,
        / 'Database Name: ', 30 sy-dbsys,
