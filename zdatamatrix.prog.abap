@@ -15,8 +15,8 @@ WRITE: /, / 'Date & Time Information',
        / 'Local Time: ', 30 sy-timlo,
        / 'Local Time Zone: ', sy-zonlo.
 WRITE: /, / 'Login Information',
-       / ' Logical SAP System: ', 30 sy-sysid,
-       / ' Client: ', 30 sy-mandt,
+       / 'Logical SAP System: ', 30 sy-sysid,
+       / 'Client: ', 30 sy-mandt,
        / 'User Name: ', 30 sy-uname.
 WRITE: /, / 'System & Program Information',
        / 'SAP WebAS Name: ', 30 sy-host,
