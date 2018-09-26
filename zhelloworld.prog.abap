@@ -5,4 +5,4 @@ PARAMETERS:
 WRITE / 'Hello World!'.
 WRITE / 'This is one of my first programs.'.
 WRITE 'But not my last one'.
-WRITE: / 'REGARDS' , p_nicknm.
+WRITE: / 'Regards' , p_nicknm.
