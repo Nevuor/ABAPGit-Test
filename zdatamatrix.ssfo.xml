@@ -3,6 +3,7 @@
  <sf:SMARTFORM xmlns:sf="urn:sap-com:SmartForms:2000:internal-structure" xmlns="urn:sap-com:sdixml-ifr:2000">
   <HEADER>
    <FORMNAME>ZDATAMATRIX</FORMNAME>
+   <CAPTION>Datamatrix</CAPTION>
    <MASTERLANG>E</MASTERLANG>
    <LANGVECTOR>*</LANGVECTOR>
    <DEVCLASS></DEVCLASS>
@@ -175,6 +176,7 @@
            <NAME>
             <INAME>DATAMATRIX</INAME>
            </NAME>
+           <CAPTION>Datamatrix</CAPTION>
            <NEXTPAGE>
             <INAME>DATAMATRIX</INAME>
            </NEXTPAGE>
@@ -201,6 +203,7 @@
               <NAME>
                <INAME>MAIN</INAME>
               </NAME>
+              <CAPTION>Main Window</CAPTION>
               <WTYPE>M</WTYPE>
               <T_CAPTION>
                <item>
@@ -223,7 +226,17 @@
                      <NAME>
                       <INAME>TEXT</INAME>
                      </NAME>
+                     <CAPTION>Text</CAPTION>
                      <APPMODE>P</APPMODE>
+                     <TEXT>
+                      <item>
+                       <TDFORMAT>*</TDFORMAT>
+                       <TDLINE>Datamatrix - Proof of Concept</TDLINE>
+                      </item>
+                      <item>
+                       <TDFORMAT>*</TDFORMAT>
+                      </item>
+                     </TEXT>
                      <STYLE_NAME>SYSTEM</STYLE_NAME>
                      <TEXT_AREA>
                       <ENABLED>F</ENABLED>
@@ -271,6 +284,7 @@
                      <NAME>
                       <INAME>ABAP</INAME>
                      </NAME>
+                     <CAPTION>ABAP</CAPTION>
                      <PLIST>
                       <item>
                        <OPD>IV_TEXT</OPD>
@@ -347,6 +361,7 @@
                      <NAME>
                       <INAME>DATAMATRIX</INAME>
                      </NAME>
+                     <CAPTION>Pixels</CAPTION>
                      <SECTTYPE>S</SECTTYPE>
                      <OTABTYPE>S</OTABTYPE>
                      <U_FHEIGHT>CM</U_FHEIGHT>
@@ -5171,6 +5186,7 @@
               <NAME>
                <INAME>%OUTATTRIB1</INAME>
               </NAME>
+              <CAPTION>New Display Option</CAPTION>
               <U_WFRAME>PT</U_WFRAME>
               <U_WBOXV>CM</U_WBOXV>
               <U_WBOXH>CM</U_WBOXH>
