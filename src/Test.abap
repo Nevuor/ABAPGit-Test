@@ -1,0 +1,3 @@
+REPORT zTest.
+
+WRITE / 'HELLO!'.
