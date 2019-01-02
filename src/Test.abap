@@ -1,3 +1,0 @@
-REPORT zTest.
-
-WRITE / 'HELLO!'.
